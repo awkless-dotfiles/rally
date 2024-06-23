@@ -19,6 +19,27 @@ checkout][git-sparse-checkout] feature git offers. Thus, the user can manage
 their dotfiles and easily deploy them whenever they want without the need to
 copy, move, or symlink them.
 
+## Installation
+
+You will need the following pieces of software:
+
+1. Git [>= 2.24.0].
+1. Rust [>= 1.74.1].
+
+Clone this repository and use Cargo like so:
+
+```
+# git clone https://github.com/awkless-dotfiles/rally.git
+# cd rally
+# cargo build --release
+# cargo install
+```
+
+Make sure that your `$PATH` includes `$HOME/.cargo/bin` in order to execute the
+Rally binary.
+
+Enjoy!
+
 [git-scm]: https://git-scm.com/
 [git-cmds]: https://git-scm.com/docs
 [git-sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout

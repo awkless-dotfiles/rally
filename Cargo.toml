@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2024 Jason Pena <jasonpena@awkless.com>
+# SPDX-License-Identifier: MIT
+
+[package]
+name = "rally"
+description = "A command-line application for rallying your dotfiles together"
+repository = "https://github.com/awkless-dotfiles/rally"
+authors = ["Jason Pena <jasonpena@awkless.com>"]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
+rust-version = "1.74.1"
+
+[[bin]]
+name = "rally"
+path = "src/rally.rs"

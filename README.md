@@ -52,7 +52,13 @@ This coding project is open to the following forms of contribution:
 
 Refer to the [contribution guidelines][contributing] for more information.
 
+## License
+
+The Rally project is under the MIT license. See the provided [copy][license] for
+more details.
+
 [git-scm]: https://git-scm.com/
 [git-cmds]: https://git-scm.com/docs
 [git-sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout
 [contributing]: CONTRIBUTING.md
+[license]: LICENSE.txt

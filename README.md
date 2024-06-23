@@ -52,6 +52,16 @@ This coding project is open to the following forms of contribution:
 
 Refer to the [contribution guidelines][contributing] for more information.
 
+## Acknowledgements
+
+Nicola Paolucci's article [Dotfiles: Best way to store a bare git
+repository][durdn-article] gave great inspiration to write the Rally
+application by providing a basic template on how to use git to manage dotfiles.
+
+The [March 31, 2021 GitHub blog entry][stolee-article] by Derrick Stolee also
+gave inspiration for using git's sparse checkout feature to deploy and undeploy
+dotfile collections.
+
 ## License
 
 The Rally project is under the MIT license. See the provided [copy][license] for
@@ -61,4 +71,6 @@ more details.
 [git-cmds]: https://git-scm.com/docs
 [git-sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout
 [contributing]: CONTRIBUTING.md
+[durdn-article]: https://www.atlassian.com/git/tutorials/dotfiles
+[stolee-article]: https://github.blog/2020-01-17-bring-your-monorepo-down-to-size-with-sparse-checkout/
 [license]: LICENSE.txt

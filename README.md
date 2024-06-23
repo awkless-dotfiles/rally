@@ -40,6 +40,19 @@ Rally binary.
 
 Enjoy!
 
+## Contributing
+
+This coding project is open to the following forms of contribution:
+
+1. Improvements or additions to production code.
+1. Improvements or additions to test code.
+1. Improvements or additions to build system.
+1. Improvements or additions to documentation.
+1. Improvements or additions to CI/CD pipelines.
+
+Refer to the [contribution guidelines][contributing] for more information.
+
 [git-scm]: https://git-scm.com/
 [git-cmds]: https://git-scm.com/docs
 [git-sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout
+[contributing]: CONTRIBUTING.md

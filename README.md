@@ -5,6 +5,10 @@ SPDX-License-Identifier: MIT
 
 # Rally
 
+![Quality Check Status][quality-check-status]
+![Reuse v3 Compliance Status][reuse-status]
+![Rustc version][rustc-version]
+
 Rally is a command-line tool designed for dotfile management. This application
 acts as a fancy wrapper over [git][git-scm]. Allowing the user to treat their
 home directory as their primary working tree. Thus, through Rally, the user can
@@ -278,6 +282,9 @@ dotfile collections.
 The Rally project is under the MIT license. See the provided [copy][license] for
 more details.
 
+[quality-check-status]: https://img.shields.io/github/actions/workflow/status/awkless-dotfiles/rally/quality_check.yaml?style=flat-square&label=quality%20checks
+[reuse-status]: https://img.shields.io/github/actions/workflow/status/awkless-dotfiles/rally/reuse.yaml?style=flat-square&label=reuse%20v3%20compliance
+[rustc-version]: https://img.shields.io/badge/rustc-1.74.1%2B-blue
 [git-scm]: https://git-scm.com/
 [git-cmds]: https://git-scm.com/docs
 [git-sparse-checkout]: https://git-scm.com/docs/git-sparse-checkout

@@ -101,5 +101,27 @@ _subject_, _body_, and _trailers_ of any commit. The _subject_ of a commit
 should be capitalized, and written in the imperative mood. If you can, do not
 use ending punctuation like periods, question marks, or exclamation marks.
 
+## Licensing and Copyright
+
+This project uses the MIT license for all source code and documentation. Please
+read through the provided [copy][license] of this license to understand your
+rights and whether or not you agree before contributing. Once contributions
+are accepted they will be subject to public record permanently.
+
+This project abides by the [REUSE 3.0][reuse3] specification to determine the
+licensing and copyright of files in the code base. Thus, all files must have the
+proper SPDX copyright and licensing tags at the top always. If you want to
+determine if your current changes are REUSE compliant, then just use their
+[reuse tool][reuse-tool].
+
+## Acknowledgements
+
+- The commit style of this project was inspired by [gitoxide's][gix-devel-doc]
+  style of using [cargo smart release][smart-release].
+
 [conventional-commits]: https://www.conventionalcommits.org/en/v1.0.0/
 [smart-release]: https://github.com/Byron/cargo-smart-release
+[reuse3]: https://reuse.software/spec/
+[reuse-tool]: https://reuse.software/tutorial/
+[license]: LICENSE.txt
+[gix-devel-doc]: https://github.com/Byron/gitoxide/blob/main/DEVELOPMENT.md

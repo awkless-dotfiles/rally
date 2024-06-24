@@ -27,6 +27,30 @@ current state of the `main` branch. Keep your commit history linear. Linear
 commit history makes it easier to perform rebase merging. This project does not
 like merge commits.
 
+## Coding Style
+
+Use `rustfmt` to format your code. Maximum line width is 100 characters. Use
+`clippy` to lint your code.
+
+Use rustdocs for both public and private APIs in the codebase. State the
+_preconditions_, _postconditions_, _invariants_, and any potential _side
+effects_ that a given piece of may have in rustdocs. If applicable, then provide
+a basic example on how to use the code you created as well.
+
+Use rustdocs to reason out the _what_ and _why_. The code should explain the
+_how_. In other words, do not try to document implementation details as such
+documentation will become out-of-date real quick.
+
+Try not to leave important documentation details about any given piece of code
+in just the commit history. No one wants to figure out how your code works by
+digging through its history with git-blame. Yes, technically, such a commit
+may end up in the changelog, but remember that the changelog is mainly for the
+_user_.
+
+This project likes to publish generated rustdoc documentation to GitHub pages as
+an online reference. By following these conventions, it should make it easier to
+reason about the code while either online or offline.
+
 ## Commit Style
 
 This project likes to use a style I'd call "purposeful
